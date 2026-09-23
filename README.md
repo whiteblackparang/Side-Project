@@ -28,3 +28,4 @@ Stratified 5-Fold 기준 LightGBM ROC-AUC 0.963 (LR baseline 0.917 대비 +0.046
 **배운 점 & 개선하고 싶은 부분**
 단변량 상관계수와 트리 모델의 gain importance가 다른 것을 측정한다는 점을 다중공선성 사례로 체감. 다음에는 SHAP을 전체 데이터 기준으로 재계산하고, CatBoost 등 모델을 추가해 OOF 기반 앙상블까지 검증 예정.
 
+---
